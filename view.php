@@ -9,7 +9,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-
+<?php //print_r(PDO::getAvailableDrivers()); ?>
 <h1>Users and their favorite sports</h1>
 
 <?php if(isset($message)):?>
